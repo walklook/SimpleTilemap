@@ -1,7 +1,7 @@
 # SimpleTilemap v1.0
 
-<img src="https://dl.dropboxusercontent.com/u/11960643/simpletilemap/simpletilemapstand.gif" alt="Import Settings" width="400">
-<img src="https://dl.dropboxusercontent.com/u/11960643/simpletilemap/simpletilemap.gif" alt="Import Settings" width="400">
+<img src="http://aws.sv-cdn.com/site_assets/devpics/18201011cb2c4/simpletilemapstand.gif" alt="Import Settings" width="400">
+<img src="http://aws.sv-cdn.com/site_assets/devpics/18200011cb2c4/simpletilemap.gif" alt="Import Settings" width="400">
 
 Developed for [@isotacticsgame](http://twitter.com/isotacticsgame)
 
@@ -14,7 +14,7 @@ Its intended use is for 2D pixelart games with orthographic cameras, and has not
 All functionality is contained in the single SimpleTilemap script, with an example of full functionality in the two included example Unity scenes and in the APIDemo.cs script.
 The biggest thing to note with this library is that this script assumes certain import settings on tilemap sprties to work properly, which you can see below.
 
-<img src="https://dl.dropboxusercontent.com/u/11960643/simpletilemap/import-settings.png" alt="Import Settings" width="400">
+<img src="http://aws.sv-cdn.com/site_assets/devpics/181ff011cb2c4/import-settings.png" alt="Import Settings" width="400">
 
 The big thing to note is that this script assumes that the texture is set to **Sprite** with a **one pixel per unit** PPU setting, **Point filter mode**, and no compression.
 "Sprite Mode" is also set to "Single", **even for tilemaps**. I recgonize this is somewhat of a limitation, but I also know this is somewhat standard practice
@@ -24,7 +24,7 @@ This is also why you need to fill in the tilemap parameters on the script. For m
 
 ## Component parameters
 
-<img src="https://dl.dropboxusercontent.com/u/11960643/simpletilemap/final-component.png" alt="Component Parameters" width="400">
+<img src="http://aws.sv-cdn.com/site_assets/devpics/181fe011cb2c4/final-component.png" alt="Component Parameters" width="400">
 
 The component is relatively barebones, but displays core parameters to get the script working. In order:
 
